@@ -1,4 +1,5 @@
 **Hi there fellar!**
+
 Since I'm farly new to github, I created this repo for my own sake,
 to be able to remember what steps to take to code together.
 If there is anything wrong with this manual - let me know.
@@ -47,7 +48,7 @@ won't get touched unless all changes have been discussed before the merge.
 **1 - Create a central repository**
     If it's a completely new repository, create a bare repository
     It's convention to put .git on the end   
-    ssh user@host git init --bare /path/to/repo.git
+    user@host git init --bare /path/to/repo.git
 
 **2 - Clone the project to your local machine**
 
