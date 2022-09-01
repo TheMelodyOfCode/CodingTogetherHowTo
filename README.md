@@ -1,4 +1,4 @@
-**Hi there fellar!**
+**Hi there dude!**
 
 Since I'm farly new to github, 
 I created this repo for my own sake, too be able to remember what steps to take to code together.
