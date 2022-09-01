@@ -14,25 +14,22 @@ won't get touched unless all changes have been discussed before the merge.
 
 **2 - Clone it!**
     Creates a copy of the repo on your local machine
-
     git clone https://user@bitbucket.org/user/repo.git
 
 **3 - Create a new Branch**
     Before you can start to work on the repo you need to create a new branch
-
     git checkout -b nameOfNewBranch
-
     To see what branch you're one
     git branch
 
-**4 - Now you can work on the new branch as you are used to **
+**4 - Now you can work on the new branch as you are used to**
 
-      edit code
-    git status   View the state of the repo
-    git add <some-file>   Stage a file
-    git commit   Commit a file</some-file>
+    -edit code
+    git status   -View the state of the repo
+    git add <some-file>   -Stage a file
+    git commit -m "some message"
 
-**5 - Push your changes to your online branch to get to reviewed by your co-workers **
+**5 - Push your changes to your online branch to get to reviewed by your co-workers**
     No changes will be made to the original repo
 
     git push origin nameOfBranchh
@@ -58,11 +55,12 @@ won't get touched unless all changes have been discussed before the merge.
 
 **3 - Now you can work on your local version as you are used to**
 
-    git status   View the state of the repo
-    git add <some-file>   Stage a file
-    git commit   Commit a file</some-file>
+    -edit code
+    git status   -View the state of the repo
+    git add <some-file>   -Stage a file
+    git commit -m "some message">
 
-**4 - To share your work push your changes to the central repository **
+**4 - To share your work push your changes to the central repository**
     git push origin main
 
 **5 - ERROR**
@@ -70,12 +68,12 @@ won't get touched unless all changes have been discussed before the merge.
     If your working with several people on a central project commits can differ when updating.
     Git will throws an error if that happens.
 
-**6 - Pull --rebase to get the changes that have been made and put your owwn on top **
+**6 - Pull --rebase to get the changes that have been made and put your owwn on top**
     rebase transmitts every local commit one by one instead of a big massiv merge commit
 
     git pull --rebase origin main
 
-**7 - Merge conflict **
+**7 - Merge conflict**
     If there is a conflict check out the problem
     git status
     After the problem has been solved
