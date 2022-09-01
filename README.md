@@ -1,7 +1,6 @@
 **Hi there fellar!**
 
 Since I'm farly new to github, 
-
 I created this repo for my own sake, too be able to remember what steps to take to code together.
 If there is anything wrong with this manual - let me know.
 Cheers
@@ -9,7 +8,7 @@ Cheers
 
 **Pull request - Feaure Branch Workflow**
 
-The idea is that ereyone works on their own feature and the main repo
+The idea is that ereyone works on their own separate code and the main repo
 won't get touched unless all changes have been discussed before the merge.
 
 **1 - Fork it!**
