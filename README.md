@@ -16,7 +16,7 @@ won't get touched unless all changes have been discussed before the merge.
 
 **2 - Clone it!**
     Creates a copy of the repo on your local machine
-    git clone https://user@bitbucket.org/user/repo.git
+    git clone https://github.com/USERNAME/NameOfTheRepo.git
 
 **3 - Create a new Branch**
     Before you can start to work on the repo you need to create a new branch
