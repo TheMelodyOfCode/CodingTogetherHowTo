@@ -1,14 +1,13 @@
+** Hi there fellar! **
+Since I'm farly new to github, I created this repo for my own sake
+to be able to remember what steps to take to code together.
+If there is anything wrong with this manual - let me know.
+Cheers
 
-  ** Hi there fellar! **
-  Since I'm farly new to github, I created this repo for my own sake
-  to be able to remember what steps to take to code together.
-  If there is anything wrong with this manual - let me know.
-  Cheers
+Pull request - Feaure Branch Workflow
 
-   Pull request - Feaure Branch Workflow
-
-    The idea is that ereyone works on their own feature and the main repo
-    won't get touched unless all changes have been discussed before the merge.
+The idea is that ereyone works on their own feature and the main repo
+won't get touched unless all changes have been discussed before the merge.
 
 **  1 - Fork it! **
     Navigate to the repo you want to contribute to and fork it
@@ -45,12 +44,8 @@
 
   The code will get reviewed by the owner and either accepted or dismissed
 
-
- ------------------------------------------------------------------------------------------                                                                         
- ------------------------------------------------------------------------------------------                                                                         
-
-
- #  Working together on CENTRAL Repository   
+------------------------------------------------------------------------------------------                                                                        ------------------------------------------------------------------------------------------                                                                         
+#  Working together on CENTRAL Repository   
 
 **  1 - Create a central repository **
     If it's a completely new repository, create a bare repository
