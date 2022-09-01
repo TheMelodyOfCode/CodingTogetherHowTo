@@ -43,10 +43,12 @@ won't get touched unless all changes have been discussed before the merge.
 
   The code will get reviewed by the owner and either accepted or dismissed
 
-------------------------------------------------------------------------------------------                                                                        ------------------------------------------------------------------------------------------                                                                         
+------------------------------------------------------------------------------------------                                                                        ------------------------------------------------------------------------------------------                                           
+
 #  Working together on CENTRAL Repository   
 
 **1 - Create a central repository**
+
     If it's a completely new repository, create a bare repository
     It's convention to put .git on the end   
     user@host git init --bare /path/to/repo.git
@@ -63,26 +65,33 @@ won't get touched unless all changes have been discussed before the merge.
     git commit -m "some message">
 
 **4 - To share your work push your changes to the central repository**
+
     git push origin main
 
 **5 - ERROR**
+
     The central repo is the official project.
     If your working with several people on a central project commits can differ when updating.
     Git will throws an error if that happens.
 
 **6 - Pull --rebase**
+
     to get the changes that have already been made and put your owwn on top.
     rebase transmitts every local commit one by one instead of a big massiv merge commit
 
     git pull --rebase origin main
 
 **7 - Merge conflict**
+
     If there is a conflict check out the problem
+    
     git status
     
     After the problem has been solved
+    
     git add <some-file>
     git rebase --continue
     
     In case you got no f.. clue
+    
     git rebase --abort
