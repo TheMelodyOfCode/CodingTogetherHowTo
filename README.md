@@ -7,6 +7,7 @@ Cheers
 
 
 **Pull request - Feaure Branch Workflow**
+--------------------------------------------
 
 The idea is that ereyone works on their own separate code and the main repo
 won't get touched unless all changes have been discussed before the merge.
@@ -45,7 +46,8 @@ won't get touched unless all changes have been discussed before the merge.
 
 ------------------------------------------------------------------------------------------                                                                        ------------------------------------------------------------------------------------------                                           
 
-#  Working together on CENTRAL Repository   
+**Working together on CENTRAL Repository**
+-------------------------------------------
 
 **1 - Create a central repository**
 
