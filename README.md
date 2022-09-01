@@ -70,7 +70,8 @@ won't get touched unless all changes have been discussed before the merge.
     If your working with several people on a central project commits can differ when updating.
     Git will throws an error if that happens.
 
-**6 - Pull --rebase to get the changes that have been made and put your owwn on top**
+**6 - Pull --rebase**
+    to get the changes that have already been made and put your owwn on top.
     rebase transmitts every local commit one by one instead of a big massiv merge commit
 
     git pull --rebase origin main
@@ -78,8 +79,10 @@ won't get touched unless all changes have been discussed before the merge.
 **7 - Merge conflict**
     If there is a conflict check out the problem
     git status
+    
     After the problem has been solved
     git add <some-file>
     git rebase --continue
+    
     In case you got no f.. clue
     git rebase --abort
