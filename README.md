@@ -1,7 +1,7 @@
 **Hi there dude!**
 
 Since I'm farly new to github, 
-I created this repo for my own sake, too be able to remember what steps to take to code together.
+I created this repo for my own sake, to be able to remember what steps to take to code together.
 If there is anything wrong with this manual - let me know.
 Cheers
 
